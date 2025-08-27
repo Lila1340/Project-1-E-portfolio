@@ -74,7 +74,7 @@ li {
 }
 
 #landing {
-    background-color:#rgba(115, 66, 214, 0.1);
+    background-color: rgba(115, 66, 214, 0.1);
 }
 
 header {
@@ -185,11 +185,10 @@ background: url('assets/wave.svg');
 }
 .highlight__wrapper {
     padding:0 24px;
-    width: calc(100%/3);
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
 }
 
 .highlight__para {
@@ -220,6 +219,36 @@ FEATURES
 
 */
 #features {
-    height: 1000px;
+    padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1);
+}
+
+.books {
+    display: flex;
+    
+}
+.books {
+    width: 25%;
+    padding: 24px;
+
+}
+
+.book__img {
+    max-height:380px;
+}
+
+.book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.book__img--wrapper {
+    margin-bottom: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.book:hover .book__img--wrapper {
+    transform: scale(1.03);
 }
